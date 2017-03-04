@@ -4,7 +4,7 @@ go-dns-providers is a fork of [xenolf/lego/providers/dns](https://github.com/xen
   - `CreateDnsEntry` to create a new dns entry
   - `DeleteDnsEntry` to delete an extisting dns entry
 
-For us with [crypto/acme](https://godoc.org/golang.org/x/crypto/acme) the following function will be exposed:
+For use with [crypto/acme](https://godoc.org/golang.org/x/crypto/acme) the following function will be exposed:
   - `challengeSetup` to create dns entry to pass challenge
   - `challengeCleanup` to remove dns challenge entry
   
